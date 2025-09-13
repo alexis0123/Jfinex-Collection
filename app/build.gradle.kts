@@ -13,10 +13,10 @@ android {
 
     defaultConfig {
         applicationId = "com.jfinex.collection"
-        minSdk = 29
+        minSdk = 21
         targetSdk = 35
         versionCode = 1
-        versionName = "1.1"
+        versionName = "1.2"
 
         buildConfigField("String", "APP_VERSION", "\"${versionName}\"")
 
